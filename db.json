@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "nombre": "Milla",
-      "alias": "Justita",
+      "nombre": "Carlos",
+      "alias": "Mite",
       "types": [
         "locality",
         "political"
@@ -11,8 +11,8 @@
     },
     {
       "id": 2,
-      "nombre": "Cook County",
-      "alias": "Cook County",
+      "nombre": "Daniel",
+      "alias": "Dani",
       "types": [
         "administrative_area_level_2",
         "political"
@@ -20,8 +20,8 @@
     },
     {
       "id": 3,
-      "nombre": "Illinois",
-      "alias": "IL",
+      "nombre": "Mite",
+      "alias": "Mite",
       "types": [
         "administrative_area_level_1",
         "political"
@@ -29,8 +29,8 @@
     },
     {
       "id": 4,
-      "nombre": "United States",
-      "alias": "US",
+      "nombre": "Charlie",
+      "alias": "Charlie",
       "types": [
         "country",
         "political"
