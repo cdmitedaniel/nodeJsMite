@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Milla",
+      "alias": "Justita",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Cook County",
+      "alias": "Cook County",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Illinois",
+      "alias": "IL",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "United States",
+      "alias": "US",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
