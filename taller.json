@@ -1,40 +1,25 @@
 {
-	"users": [
-	  {
+    "marcadores": [
+      {
 		"id": 1,
-		"nombre": "Carlos",
-		"alias": "Mite",
-		"types": [
-		  "locality",
-		  "political"
-		]
-	  },
-	  {
+        "latitude": 40.416875,
+        "longitude": -3.703308,
+        "city": "Madrid",
+        "description": "Puerta del Sol"
+      },
+      {
 		"id": 2,
-		"nombre": "Daniel",
-		"alias": "Dani",
-		"types": [
-		  "administrative_area_level_2",
-		  "political"
-		]
-	  },
-	  {
+        "latitude": 40.417438,
+        "longitude": -3.693363,
+        "city": "Madrid",
+        "description": "Paseo del Prado"
+      },
+      {
 		"id": 3,
-		"nombre": "Mite",
-		"alias": "Mite",
-		"types": [
-		  "administrative_area_level_1",
-		  "political"
-		]
-	  },
-	  {
-		"id": 4,
-		"nombre": "Charlie",
-		"alias": "Charlie",
-		"types": [
-		  "country",
-		  "political"
-		]
-	  }
-	]
-  }
+        "latitude": 40.407015,
+        "longitude": -3.691163,
+        "city": "Madrid",
+        "description": "Estación de Atocha"
+      }
+    ]
+}

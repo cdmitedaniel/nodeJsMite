@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
  
 //GetAll
 //Ejemplo: GET http://localhost:8080/item
-app.get('/users', function(req, res, next) {
+app.get('/marcadores', function(req, res, next) {
   if(req.query.filter) {
    next();
    return;
@@ -33,7 +33,7 @@ app.get('/users', function(req, res, next) {
  
 //GetById
 //Ejemplo: GET http://localhost:8080/item/10
-app.get('/users/:id', function(req, res, next) {
+app.get('/marcadores/:id', function(req, res, next) {
   var id = req.params.id;
   res.send('Get ' + req.params.id);
   console.log('Get ' + req.params.id);
@@ -41,7 +41,7 @@ app.get('/users/:id', function(req, res, next) {
  
 //GetFiltered
 //Ejemplo: GET http://localhost:8080/item?filter=ABC
-app.get('/users', function(req, res) {
+app.get('/marcadores', function(req, res) {
   var filter = req.query.filter;
   res.send('Get filter ' + filter);
   console.log('Get filter ' + filter);
@@ -49,7 +49,7 @@ app.get('/users', function(req, res) {
  
 //Create
 //Ejemplo: POST http://localhost:8080/item
-app.post('/users', function(req, res) {
+app.post('/marcadores', function(req, res) {
    var data = req.body.data;
    res.send('Add ' + data);
    console.log('Add ' + data);
@@ -57,7 +57,7 @@ app.post('/users', function(req, res) {
  
 //Replace
 //Ejemplo: PUT http://localhost:8080/item/10
-app.put('/users/:id', function(req, res) {
+app.put('/marcadores/:id', function(req, res) {
    var id = req.params.id;
    var data = req.body.data;
    res.send('Replace ' + id + ' with ' + data);
@@ -66,7 +66,7 @@ app.put('/users/:id', function(req, res) {
  
 //Update
 //Ejemplo: PATCH http://localhost:8080/item/10
-app.patch('/users/:id', function(req, res) {
+app.patch('/marcadores/:id', function(req, res) {
    var id = req.params.id;
    var data = req.body.data;
    res.send('Update ' + id + ' with ' + data);
@@ -75,7 +75,7 @@ app.patch('/users/:id', function(req, res) {
  
 //Delete
 //Ejemplo: DEL http://localhost:8080/items
-app.delete('/users/:id', function(req, res) {
+app.delete('/marcadores/:id', function(req, res) {
    var id = req.params.id;
    res.send('Delete ' + id);
    console.log('Delete ' + id);
