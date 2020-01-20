@@ -1,22 +1,29 @@
 {
-    "marcadores": [
-      {
-		"id": 1,
-        "latitude": 40.416875,
-        "longitude": -3.703308,
-        "description": "Puerta del Sol"
-      },
-      {
-		"id": 2,
-        "latitude": 40.417438,
-        "longitude": -3.693363,
-        "description": "Paseo del Prado"
-      },
-      {
-		"id": 3,
-        "latitude": 40.407015,
-        "longitude": -3.691163,
-        "description": "Estación de Atocha"
-      }
-    ]
+  "employees": [
+    {
+      "firstname": "John2",
+      "age": 30,
+      "mail": "john@gmail.com"
+    },
+    {
+      "firstname": "Jimmy2",
+      "age": 25,
+      "mail": "jimmy@gmail.com"
+    },
+    {
+      "firstname": "Jenny2",
+      "age": 22,
+      "mail": "jenny@gmail.com"
+    },
+    {
+      "firstname": "Jeremy2",
+      "age": 40,
+      "mail": "jeremy@gmail.com"
+    },
+    {
+      "firstname": "Justin",
+      "age": 32,
+      "mail": "justin@gmail.com"
+    }
+  ]
 }
